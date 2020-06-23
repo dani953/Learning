@@ -1,0 +1,238 @@
+@media only screen and (max-width: 1600px) {}
+
+@media only screen and (max-width: 1500px) {
+    .header-inner {
+        margin: 0 120px;
+    }
+}
+
+
+@media only screen and (max-width:1200px) {
+
+    .header-inner {
+        margin: 0 45px;
+    }
+
+    .main-menu .navigation li a {
+        font-size: 15px;
+
+    }
+
+    /* Medium Layout: 1280px. */
+
+    @media only screen and (min-width: 992px) and (max-width: 1200px) {}
+
+    @media only screen and (max-width: 991px) {
+
+        .main-header .header-upper {
+            padding: 15px 0 50px 0;
+        }
+
+        .top-bar {
+            display: block;
+            flex: none;
+        }
+
+        .top-bar-left {
+            margin-bottom: 10px;
+            width: 100%;
+        }
+
+        .banner-content h1 {
+            font-size: 40px;
+        }
+
+
+        .rmb-00 {
+            margin-bottom: 0;
+        }
+
+        .rmb20 {
+            margin-bottom: 20px;
+        }
+        
+        
+    }
+
+    /*		Tablet Layout: 768px. */
+
+    @media only screen and (min-width: 768px) and (max-width: 991px) {}
+
+
+    /*		Mobile Layout: 767px.  */
+
+    @media only screen and (max-width: 767px) {
+
+        p,
+        a {
+            font-size: 15px;
+        }
+
+        .slider-content h2 {
+            font-size: 30px;
+        }
+
+        .slider-content h1 {
+            padding: 4px 12px;
+            font-size: 35px;
+        }
+
+        .btn-style-three {
+            width: 130px;
+            height: 45px;
+            line-height: 45px;
+        }
+
+        .ad-item {
+            margin-bottom: 30px;
+        }
+
+        .rmt20 {
+            margin-top: 20px;
+        }
+
+        .features-item .card-img-top img {
+            width: 100%;
+        }
+
+        .section-tag {
+            margin-bottom: 50px;
+        }
+
+        .section-tag h2 {
+            font-size: 30px;
+        }
+
+        .sec-borderPadding {
+            margin-bottom: 50px;
+            padding-bottom: 50px;
+        }
+
+        .features-btn-bottom {
+            margin-left: 40%;
+        }
+
+        .newsletter-form input {
+
+            margin-bottom: 10px;
+        }
+
+        .get-in-touch-left {
+            margin-bottom: 20px;
+        }
+
+        .footer-quick-links {
+            margin: 20px 0;
+        }
+
+        .footer-contact {
+            margin-top: 20px;
+        }
+
+        .browse-item {
+            padding: 3px 15px;
+            margin-bottom: 6px;
+        }
+
+        .sidebar-wrapper ul li a {
+            padding: 1px;
+            font-size: 15px;
+
+        }
+
+        .latest-news-section {
+            display: none;
+        }
+
+        #return-to-top {
+            width: 40px;
+            height: 40px;
+            line-height: 40px;
+        }
+
+        .pack-list-group li {
+            margin-bottom: 5px;
+        }
+
+        .social-icon a {
+            margin-right: 5px;
+        }
+
+        .banner-area {
+            height: 450px;
+        }
+
+        .banner-content {
+            top: 70%;
+        }
+
+        .banner-content h1 {
+            font-size: 30px;
+        }
+
+        .zoomContainer{
+            display: none;
+        }
+
+    }
+
+
+    @media only screen and (max-width: 575px) {
+
+        .top-bar {
+            padding: 8px 20px 8px 90px;
+        }
+
+        .banner-content h1 {
+            font-size: 25px;
+        }
+
+    }
+
+    @media only screen and (max-width: 530px) {}
+
+
+    @media only screen and (max-width: 480px) {
+        .header-inner {
+            margin: 0 15px;
+        }
+
+        .slider-content {
+            bottom: 10px;
+            left: 10px;
+        }
+
+        .slider-content h2 {
+            font-size: 20px;
+        }
+
+        .slider-content h1 {
+            padding: 1px 4px;
+            font-size: 26px;
+        }
+
+        .btn-style-three {
+            width: 120px;
+            height: 40px;
+            line-height: 40px;
+        }
+        
+        .banner-content {
+    top: 70%;
+    left: 25%;
+    transform: translate(-30%, -50%);
+}
+    }
+
+    @media only screen and (max-width: 375px) {
+        .top-bar-right .btn-style-one {
+            margin-left: 0;
+        }
+    }
+
+
+    @media only screen and (max-width: 350px) {
+        .top-bar-right .rmt {
+            margin-top: 5px;
+        }
+    }

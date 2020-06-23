@@ -1,0 +1,8 @@
+RewriteEngine On
+RewriteBase /easybazar/
+ErrorDocument 404 /index.html
+ 
+#RewriteCond %{SCRIPT_FILENAME} !-d
+#RewriteCond %{SCRIPT_FILENAME} !-f
+ 
+#RewriteRule ^users/(\d+)*$ ./Category.php?id=$1
